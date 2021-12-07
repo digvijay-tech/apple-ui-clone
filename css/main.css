@@ -1,0 +1,299 @@
+/* Variables */
+:root {
+    --robotofnt: 'Roboto', sans-serif;
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+    font-family: var(--robotofnt);
+}
+
+
+/* HEADER */
+.cheader {
+    background-color: #28282ef3;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar-brand, .navbar-brand:active {
+    color: #F5F5F7;
+    font-size: 18px;
+    font-weight: 200 !important;
+    width: 10%;
+}
+
+.navbar-brand:hover {
+    color: #F5F5F7;
+    opacity: 0.8;
+}
+
+.nav-link {
+    color: #F5F5F7;
+    font-size: 14px;
+    font-weight: 200 !important;
+}
+
+.nav-link:focus {
+    color: #F5F5F7;
+}
+
+.nav-link:hover {
+    color: #F5F5F7;
+    opacity: 0.8;
+}
+
+.navbar-toggler {
+    color: transparent;
+}
+
+.custom-toggler-icon::before {
+    content: "";
+    width: 24px;
+    height: 2px;
+    margin-bottom: 6px;
+    display: block;
+    background-color: #F5F5F7;
+}
+
+.custom-toggler-icon::after {
+    content: "";
+    width: 24px;
+    height: 2px;
+    display: block;
+    background-color: #F5F5F7;
+}
+
+.navbar-nav {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cheader .dropdown-menu p {
+    font-size: 12px;
+}
+
+.cheader .dropdown-item {
+    font-size: 14px;
+    color: #0066cc;
+}
+
+
+/* HOME PAGE */
+.home {
+    margin-top: 50px;
+}
+
+.home .landingArea .banner a {
+    text-decoration: none;
+}
+
+.home .landingArea .banner a:hover {
+    text-decoration: underline;
+}
+
+.home .landingArea .ipadproSec {
+    height: 100vh;
+    background: url(../assets/images/home/hero_ipad_pro_medium.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .landingArea .ipadproSec .text-wrapper h1,
+.home .landingArea .ipadproSec .text-wrapper h3 {
+    color: #F5F5F7;
+}
+
+.home .landingArea .ipadproSec .text-wrapper .links a {
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+.home .iphoneSec {
+    height: 100vh;
+    background: url(../assets/images/home/iphone_12_updated_medium.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.home .iphoneSec .text-wrapper h1,
+.home .ipadproSec .text-wrapper h3 {
+    color: #28282e;
+}
+
+.home .iphoneSec .text-wrapper .links a {
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+.home .iMacSec {
+    height: 100vh;
+    background: url(../assets/images/home/hero_imac_medium.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.home .iMacSec .text-wrapper h1,
+.home .iMacSec .text-wrapper h3 {
+    color: #28282e;
+}
+
+.home .iMacSec .text-wrapper .links a {
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Home > Promotionals */
+.home .promotionsArea {
+    overflow-x: hidden;
+}
+
+.home .promotionsArea .iWatch {
+    background: url(../assets/images/home/promo_watch.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.home .promotionsArea .iWatch h5 {
+    color: #fff;
+}
+
+.home .promotionsArea .appleTv {
+    background: url(../assets/images/home/promo_tile_tv.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.home .promotionsArea .appleTv h2 {
+    font-weight: 600;
+}
+
+.home .promotionsArea .airTag {
+    background: url(../assets/images/home/promo_airtag.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.home .promotionsArea .airTag h1,
+.home .promotionsArea .airTag h4 {
+    font-weight: 600;
+}
+
+.home .promotionsArea .iPhone12 {
+    background: url(../assets/images/home/iphone_12_pro_small.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.home .promotionsArea .iPhone12 h1 {
+    font-weight: 600;
+    color: #fff;
+}
+
+.home .promotionsArea .iPhone12 h4 {
+    color: #fff;
+}
+
+.home .promotionsArea .iPhone12 p {
+    font-size: 18px;
+    color: #5e5e5e;
+}
+
+.home .promotionsArea .iWatch .links a,
+.home .promotionsArea .appleTv .links a,
+.home .promotionsArea .airTag .links a,
+.home .promotionsArea .iPhone12 .links a  {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* Terms and Condition Section */
+.home .termsAndConditions h4 {
+    color: #5e5e5e;
+    font-weight: 500;
+}
+
+.home .termsAndConditions p {
+    color: #5e5e5e;
+    font-size: 14px;
+}
+
+/* Other Services Section */
+.home .services .accordion-button {
+    color: #5e5e5e;
+    outline: none;
+    box-shadow: none;
+}
+
+.home .services .accordion-body ul li {
+    list-style-type: none;
+}
+
+.home .services .accordion-body ul li a {
+    color: #5e5e5e;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.home .services .accordion-body ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer p {
+    font-size: 12px;
+    color: #5e5e5e;
+}
+
+footer strong {
+    font-size: 14px;
+    color: #5e5e5e;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query */
+@media screen and (max-width: 720px) {
+    .home .landingArea .ipadproSec {
+        height: 80vh;
+        background: url(../assets/images/home/hero_ipad_pro_small.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .home .landingArea .iMacSec {
+        height: 80vh;
+        background: url(../assets/images/home/hero_imac_small.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
